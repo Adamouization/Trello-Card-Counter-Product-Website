@@ -1,0 +1,24 @@
+/* Star ratings */
+.checked {
+    color: #2A6AA2;
+}
+
+/* Browser download banners */
+.download-addon-banners {
+    border-bottom: none !important;
+    /*float:right;*/
+    /*margin-left:10px;*/
+}
+
+/* Stats badges */
+.stats-badges {
+    /*max-width: 150px; !* for mobile *!*/
+    /*max-height: 50px;*/
+    max-width: 150px;!important;
+}
+
+/*.download-addon-banners-container {*/
+/*    display: flex;*/
+/*    column-gap: 20px;*/
+/*    justify-content: space-between;*/
+/*}*/
