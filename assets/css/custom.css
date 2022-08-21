@@ -1,24 +1,23 @@
-/* Star ratings */
-.checked {
-    color: #2A6AA2;
-}
-
 /* Browser download banners */
 .download-addon-banners {
     border-bottom: none !important;
     /*float:right;*/
     /*margin-left:10px;*/
 }
+.download-addon-banners-container {
+    margin-top: 20px;
+}
+
+/* Reviews */
+.reviews-container {
+    margin-bottom: 20px; /* for mobile */
+}
+.checked {
+    color: #2A6AA2;
+}
 
 /* Stats badges */
 .stats-badges {
-    /*max-width: 150px; !* for mobile *!*/
-    /*max-height: 50px;*/
-    max-width: 180px;!important;
+    max-width: 180px;
+!important;
 }
-
-/*.download-addon-banners-container {*/
-/*    display: flex;*/
-/*    column-gap: 20px;*/
-/*    justify-content: space-between;*/
-/*}*/
