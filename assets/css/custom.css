@@ -8,6 +8,11 @@
     margin-top: 20px;
 }
 
+/* high-level text */
+.coming-soon {
+    text-align: center;
+}
+
 /* Reviews */
 .reviews-container {
     margin-bottom: 20px; /* for mobile */
@@ -20,4 +25,9 @@
 .stats-badges {
     max-width: 180px;
 !important;
+}
+
+/* Footer */
+.love {
+    color: ghostwhite;
 }
