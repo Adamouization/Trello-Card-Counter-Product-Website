@@ -1,4 +1,5 @@
 assets/template.html
+data/
 
 # ignore all files starting with . or ~
 .*
