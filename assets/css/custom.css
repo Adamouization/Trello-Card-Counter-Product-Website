@@ -23,6 +23,9 @@
 .checked {
     color: #2A6AA2;
 }
+.single-review {
+    margin-top: 40px;
+}
 
 /* Stats badges */
 .stats-badges {
