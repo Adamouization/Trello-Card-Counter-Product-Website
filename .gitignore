@@ -1,5 +1,6 @@
 assets/template.html
 data/
+performance/
 
 # ignore all files starting with . or ~
 .*
