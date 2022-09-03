@@ -15,6 +15,10 @@ You can visit the website here: [trellocardcounter.jaamour.com](http://trellocar
 * LinkedIn: [linkedin.com/in/adamjaamour](https://www.linkedin.com/in/adamjaamour/)
 * Twitter: [@Adamouization](https://twitter.com/Adamouization)
 
+## TODO
+
+* [Project Board](https://github.com/orgs/Trello-Card-Counter/projects/1)
+
 ## Support
 
 <a href="https://www.buymeacoffee.com/adamjaamour">
