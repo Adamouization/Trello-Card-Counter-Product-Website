@@ -10,10 +10,9 @@ You can visit the website here: [trellocardcounter.jaamour.com](http://trellocar
 * see [LICENSE](https://github.com/Trello-Card-Counter/Product-Website/blob/main/LICENSE) file.
 
 ## Contact
-* Email: adam@jaamour.com
+* Email: adam[at]jaamour[dot]com
 * Website: www.adam.jaamour.com
 * LinkedIn: [linkedin.com/in/adamjaamour](https://www.linkedin.com/in/adamjaamour/)
-* Twitter: [@Adamouization](https://twitter.com/Adamouization)
 
 ## TODO
 
