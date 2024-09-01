@@ -2,7 +2,7 @@
 
 Website showcasing the features of Trello Card Counter and some stats about the web browser extension. 
 
-You can visit the website here: [trellocardcounter.jaamour.com](http://trellocardcounter.jaamour.com/)
+You can visit the website here: [trellocardcounter.jaamour.com](https://trellocardcounter.jaamour.com/)
 
 [![](https://raw.githubusercontent.com/Trello-Card-Counter/Trello-Card-Counter-Mozilla-Extension/master/assets/get_addon_firefox.png)](https://addons.mozilla.org/firefox/addon/trello-card-count/)
 
@@ -11,7 +11,7 @@ You can visit the website here: [trellocardcounter.jaamour.com](http://trellocar
 
 ## Contact
 * Email: adam[at]jaamour[dot]com
-* Website: www.adam.jaamour.com
+* Website: [adam.jaamour.com](https://adam.jaamour.com/)
 * LinkedIn: [linkedin.com/in/adamjaamour](https://www.linkedin.com/in/adamjaamour/)
 
 ## TODO
