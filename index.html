@@ -12,6 +12,8 @@
     <meta name="keywords" content="trello, firefox, chrome, safari, extension, add-on, card, counter, card counter">
     <meta name="author" content="Adam Jaamour">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
 
     <!-- OpenGraph -->
     <meta property="og:title" content="Trello Card Counter">
@@ -19,6 +21,15 @@
     <meta property="og:image" content="images/opengraph.png">
     <meta property="og:url" content="https://trellocardcounter.jaamour.com/">
     <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trello Card Counter">
+    <meta name="twitter:description" content="A browser extension for Trello that counts the total number of cards in each list and across the whole board">
+    <meta name="twitter:image" content="images/opengraph.png">
+    
+    <!-- SEO -->
+    <link rel="canonical" href="https://trellocardcounter.jaamour.com/">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
@@ -306,3 +317,21 @@
 
 </body>
 </html>
+
+<!----------------------------------------- Structured Data (Schema.org) ---------------------------------------------->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Trello Card Counter",
+        "url": "https://trellocardcounter.jaamour.com/",
+        "description": "A browser extension for Trello that counts the total number of cards in each list and across the whole board.",
+        "applicationCategory": "Productivity",
+        "operatingSystem": "Windows, macOS, Linux, ChromeOS",
+        "image": "https://trellocardcounter.jaamour.com/images/opengraph.png",
+        "author": {
+            "@type": "Person",
+            "name": "Adam Jaamour"
+        }
+    }
+</script>
