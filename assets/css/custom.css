@@ -37,3 +37,8 @@
 .love {
     color: ghostwhite;
 }
+
+/* Privacy Policy */
+#privacy-policy-link {
+    cursor: pointer;
+}

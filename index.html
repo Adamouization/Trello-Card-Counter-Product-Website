@@ -25,6 +25,7 @@
     <!--  CSS stylesheets  -->
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/custom.css"/>
+    <link rel="stylesheet" href="assets/css/modal.css"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
@@ -195,7 +196,7 @@
                      src="https://img.shields.io/amo/rating/trello-card-count?style=for-the-badge"
                      class="stats-badges"></li>
             <li><img alt="Badge showing number of countries with active downloads"
-                     src="https://img.shields.io/badge/Countries-23-red?style=for-the-badge"
+                     src="https://img.shields.io/badge/Countries-34-red?style=for-the-badge"
                      class="stats-badges"></li>
         </ul>
     </div>
@@ -209,21 +210,55 @@
         <li><a href="https://addons.mozilla.org/en-GB/firefox/user/16419308/" target="_blank"
                class="icon brands alt fa-firefox-browser"><span
                 class="label">Link to FireFox profile page</span></a></li>
-        <li><a href="mailto:trellocardcounter@jaamour.com" class="icon solid alt fa-envelope"><span
+        <li><a href="mailto:hello@jaamour.com" class="icon solid alt fa-envelope"><span
                 class="label">Link to send an Email</span></a></li>
     </ul>
     <ul class="copyright">
         <li>
             Designed and built with <span class="love">❤</span> by
-            <a href="https://adam.jaamour.com/" target="_blank">Adam Jaamour</a> &copy; <span id="year"></span>
+            <a href="https://x.com/Adamouization" target="_blank">Adam Jaamour</a> &copy; <span id="year"></span>
             <br><br>
             For help and support, either email us or leave a
             <a href="https://github.com/Trello-Card-Counter/Trello-Card-Counter-Mozilla-Extension/issues"
-               target="_blank">message on GitHub</a>.
-
+               target="_blank">message on GitHub</a> | <a href="#" id="privacy-policy-link">Privacy Policy</a>
+            <br><br>
+            My other websites: <a href="https://www.globeflix.app/?ref=trellocardcounter" target="_blank">GlobeFlix</a>
+            | <a href="https://adam.jaamour.com/?ref=trellocardcounter" target="_blank">Portfolio</a> | <a
+                href="https://adamouization.github.io/?ref=trellocardcounter" target="_blank">Retro Blog</a>
         </li>
     </ul>
 </section>
+
+<!----------------------------------------------- PRIVACY POLICY MODAL ------------------------------------------------->
+<div id="privacy-policy-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="modal-close">&times;</span>
+        <h1>Privacy Policy for Trello Card Counter</h1>
+        <p><strong>Effective Date:</strong> December 12, 2024</p>
+
+        <p>Welcome to Trello Card Counter! This Privacy Policy explains how we collect, use, and protect your information.</p>
+
+        <h3>1. Information We Collect</h3>
+        <p>We do not collect any personal data from users.</p>
+
+        <h3>2. Non-Personal Data Collection</h3>
+        <p>We use Google Analytics to collect non-personal data. This data helps us analyze website usage for better marketing and improving our search engine ranking.</p>
+
+        <h3>3. Data Sharing</h3>
+        <p>We do not share any data collected with third parties.</p>
+
+        <h3>4. Children's Privacy</h3>
+        <p>We do not collect data from children under 13 years of age.</p>
+
+        <h3>5. Updates to the Privacy Policy</h3>
+        <p>If there are updates to this Privacy Policy, we will notify users by email if they downloaded Trello Card Counter via the Firefox add-on store.</p>
+
+        <h3>6. Contact Us</h3>
+        <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:hello@jaamour.com">hello@jaamour.com</a>.</p>
+
+        <p>Thank you for using Trello Card Counter!</p>
+    </div>
+</div>
 
 <!-------------------------------------------------- SUPPORT BANNER --------------------------------------------------->
 <script data-name="BMC-Widget"
@@ -247,12 +282,17 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/privacy_policy_modal.js"></script>
 
 <!----------------------------------------------- GOOGLE ANALYTICS ---------------------------------------------------->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-00F38MH0P5"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
     gtag('config', 'G-00F38MH0P5');
 </script>
